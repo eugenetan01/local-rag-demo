@@ -45,6 +45,13 @@ Create the following search index on the `sample_mflix.movies` collection:
 
 <a id="test1"></a>
 
+## Add a config.py file 
+
+In the config.py file, add a field like so: 
+```
+mongo_uri = "mongodb+srv://<your conn string>"
+```
+
 ## Run the streamlit app to query the LLM
 
 Run the streamlit app with `streamlit run main.py`
